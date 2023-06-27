@@ -7,7 +7,7 @@ int InputNum(string message)
 {
     Console.WriteLine(message);
     int num = int.Parse(Console.ReadLine()!);
-     return num;
+    return num;
 }
 
 int num = InputNum("Введите некоторое число N:");
@@ -16,7 +16,7 @@ for (int i = 1; i <= num; i++)
 {
     Console.Write($"{Math.Pow(i, 3)}");
     if (i != num)
-    System.Console.Write(", ");
+        System.Console.Write(", ");
     else
-    System.Console.Write(".");
+        System.Console.Write(".");
 }

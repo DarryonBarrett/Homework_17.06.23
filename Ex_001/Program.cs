@@ -14,7 +14,7 @@ int InputNum()
 
 void FindPalind(int num)
 {
-    if ((num / 10000) == (num % 10) & (((num % 10) %10) %10) == ((num % 10)%10))
+    if ((num / 10000) == (num % 10) && (num / 1000 % 10) == (num / 10 % 10))
     {
         Console.WriteLine("Данное число является палиндромом");
     }
